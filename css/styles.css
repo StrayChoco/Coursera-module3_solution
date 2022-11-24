@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  width:100%;
+  background-color:  rgb(212, 212, 212);
+}
+nav h1{
+  font-size: 1.5rem;
+  margin: 0.8rem;
+}
+.navigate{
+  display:none;
+}
+.navigate ul{
+  display:flex;
+  margin:auto;
+  padding:auto;
+  justify-content:center;
+}
+.navigate li{
+  align-items:center;
+  list-style:none;
+}
+.navigate li a{
+  text-decoration:none;
+  color:black;
+  padding:1rem;
+  font-size:1.2rem;
+  display:block;
+}
+.btn{
+  position:absolute;
+  flex-direction:column;
+  justify-content:space-between;
+  right:0.75rem;
+  top: 1rem;
+  display:none;
+  width:40px;
+  height:30px;
+  border-radius: 2px;
+  border: 1px solid black;
+  padding: 1px;
+  
+}
+.btn .bar{
+  height:5px;
+  width:100%;
+  background-color:black;
+  border-radius: 10px;
+}
+.container {
+  width: auto;
+  padding: 10px;
+}
+.menu {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  padding: 10px;
+  font-size: 18px;
+}
+h2{
+  width:100%;
+  text-align:center;
+}
+.inner-shell {
+  border: none;
+  width: 32%;
+  margin: auto;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+}
+.inner-shell2 {
+  border: none;
+  width: 32%;
+  margin: auto;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+}
+.inner-shell3 {
+  border: none;
+  width: 32%;
+  margin: auto;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: rgb(212, 212, 212);
+}
+.inner-shell3 a{
+  display:none;
+}
+.absolute-1 {
+  display: flex;
+  border: none;
+  color: black;
+}
+.absolute-2 {
+  display: block;
+  border: none;
+  color: black;
+}
+.absolute-3 {
+  display: block;
+  border: none;
+  color: black;
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+  .inner-shell {
+    border: none;
+    width: 32%;
+    margin: auto;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+  }
+  .inner-shell2 {
+    border: none;
+    width: 32%;
+    margin: auto;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+  }
+  .inner-shell3 {
+    border: none;
+    width: 32%;
+    margin: auto;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    margin-left: 10px;
+  }
+  .inner-shell {
+    border: none;
+    width: 47%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: none;
+    width: 47%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell3 {
+    border: none;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: auto;
+  }
+  .inner-shell {
+    border: none;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell2 {
+    border: none;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+  .inner-shell3 {
+    border: none;
+    width: 32%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10px;
+  }
+  .inner-shell {
+    border: none;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+  }
+  .inner-shell2 {
+    border: none;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+  }
+  .inner-shell3 {
+    border: none;
+    width: 100%;
+    margin: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    background-color: rgb(212, 212, 212);
+  }
+}
+@media screen and (max-width:480px) {
+  .btn{
+    display:flex;
+  }
+  .navbar{
+    flex-direction:column;
+    align-items:center;
+  }
+  .navigate li{
+    display:flex;
+    text-align:center;
+  }
+  .navigate ul{
+    width:100%;
+    flex-direction:column;
+  }
+  .navigate{
+      display:flex;
+  }
+  .inner-shell3 a{
+    display:inline-block;
+  }
+  
+  
+}
